@@ -123,4 +123,8 @@ public class Product {
     public LocalDateTime getCreatedAt() {
         return createdAt;
     }
+
+    public Boolean isActive() {
+        return active;
+    }
 }
